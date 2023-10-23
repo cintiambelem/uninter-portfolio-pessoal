@@ -1,0 +1,92 @@
+/* Reset de estilos padrão do navegador */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: FontAwesome, sans-serif;
+
+}
+
+/* Estilo geral do body */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: rgba(255, 255, 0, 0.603);
+    text-align: center;
+}
+
+/* Estilo do menu de navegação no cabeçalho */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-item a:hover {
+    color: #333;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: rgba(255, 255, 0, 0.603);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilo dos ícones de redes sociais no rodapé */
+.icon {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+/* Estilo das seções de conteúdo */
+section {
+    padding: 20px;
+}
+
+/* Estilo dos ícones no rodapé */
+.icon-github::before {
+    content: '\f09b';
+    font-family: FontAwesome;
+}
+
+.icon-linkedin::before {
+    content: '\f0e1';
+    font-family: FontAwesome;
+}
+
+/* Estilo padrão para as seções de conteúdo */
+section {
+    display: none; /* Oculta todas as seções por padrão */
+    padding: 20px;
+}
+
+/* Estilo para a classe "ativo" (quando uma seção deve ser exibida) */
+.ativo {
+    display: block; /* Exibe a seção quando a classe "ativo" está presente */
+    /* Adicione outros estilos desejados aqui, por exemplo: */
+    background-color: #fff; /* Fundo branco */
+    color: #333; /* Texto preto */
+    /* Adicione mais estilos conforme necessário */
+}
+
+
